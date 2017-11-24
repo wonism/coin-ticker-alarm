@@ -1,0 +1,41 @@
+{
+  "name": "coin-ticker-alarm",
+  "version": "1.0.0",
+  "description": "Get push notification when coin price get higher/lower than user's input",
+  "keyword": [
+    "bitcoin",
+    "ethereum",
+    "btc",
+    "eth",
+    "crypto currency"
+  ],
+  "main": "index.js",
+  "bin": {
+    "coin-ticker": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wonism",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mnpk/push-stars.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonism/coin-ticker-alarm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wonism/coin-ticker-alarm/issues"
+  },
+  "homepage": "https://wonism.github.io",
+  "license": "MIT",
+  "dependencies": {
+    "big.js": "^5.0.3",
+    "lodash": "^4.17.4",
+    "pushbullet": "^2.1.0",
+    "request": "^2.83.0",
+    "rx-node": "^1.0.2",
+    "rxjs": "^5.5.2"
+  }
+}
