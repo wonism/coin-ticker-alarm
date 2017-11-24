@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const Observable = require('rxjs').Observable;
 const request = require('request');
 const fp = require('lodash/fp');

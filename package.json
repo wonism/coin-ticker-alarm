@@ -1,6 +1,6 @@
 {
   "name": "coin-ticker-alarm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get push notification when coin price get higher/lower than user's input",
   "keyword": [
     "bitcoin",
